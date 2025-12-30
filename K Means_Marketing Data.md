@@ -85,6 +85,90 @@ K-MEANS ALGORITHM STEPS 
 
 
 
+# Marketing Analytics: Credit Score Customer Segmentation
+
+A machine learning project using K-Means clustering to segment customers based on credit score and behavioral patterns for targeted marketing strategies.
+
+## 📊 Project Overview
+
+This project applies unsupervised machine learning techniques to segment customers into distinct groups based on their credit profiles and behavior [web:166]. The analysis enables data-driven marketing decisions by identifying customer segments with similar characteristics and risk profiles [web:167].
+
+## 🔗 Notebook
+
+View the full analysis: [K Means_Marketing_Credit Score.ipynb](https://github.com/Tunguyen5578/Marketing-Analytics_Case_Study/blob/7a74ff10b8ebd2e0fa5add6872342fdda1054f89/K%20Means_Marketing_Credit%20Score.ipynb)
+
+## 🎯 Objectives
+
+- Segment customers based on credit scores and financial behavior [web:170]
+- Identify distinct customer risk profiles (high, medium, low risk) [web:169]
+- Develop targeted marketing strategies for each segment [web:171]
+- Optimize credit limit and product offerings based on cluster characteristics [web:169]
+- Improve customer retention and lifetime value through personalized approaches [web:170]
+
+## 🛠️ Technologies Used
+
+- **Python Version**: 3.13 (Latest as of December 2025)
+- **Core Libraries**:
+  - scikit-learn - K-Means clustering algorithm
+  - pandas - Data manipulation and analysis
+  - numpy - Numerical computations
+  - matplotlib & seaborn - Data visualization
+  - scipy - Statistical analysis
+
+## 📈 Methodology
+
+### 1. Exploratory Data Analysis
+- Understanding customer demographics and credit behavior [web:166]
+- Identifying patterns in spending habits, payment history, and credit utilization [web:170]
+- Missing value detection and handling [web:171]
+
+### 2. Feature Engineering & Preprocessing
+- Feature scaling and normalization [web:170]
+- Handling missing values through imputation [web:171]
+- Feature selection for optimal clustering performance [web:166]
+
+### 3. Clustering Analysis
+- Hopkins statistic test to assess clustering tendency [web:171]
+- Elbow Method to determine optimal number of clusters (k) [web:172]
+- K-Means algorithm implementation [web:168]
+- Silhouette Score analysis for cluster validation [web:171]
+
+### 4. Cluster Evaluation
+- Davies-Bouldin Index assessment [web:172]
+- Calinski-Harabasz Index evaluation [web:170]
+- Cluster profiling and interpretation [web:171]
+
+### 5. Business Insights & Strategy
+- Customer segment characterization [web:169]
+- Targeted marketing recommendations per cluster [web:171]
+- Risk management strategies [web:170]
+
+## 📊 Expected Customer Segments
+
+Typical clusters identified in credit score analysis [web:169][web:171]:
+
+- **High-Value Customers**: High credit limits, frequent purchases, consistent high payments
+- **Regular Users/Transactors**: Moderate spending, reliable payment patterns, pay in full
+- **Inactive Users/Revolvers**: Low activity, carry balances, minimum payments
+- **High-Risk Customers**: Frequent cash advances, payment delays, high debt-to-income ratio
+
+## 🔍 Key Features Analyzed
+
+- Credit Score
+- Credit Limit
+- Balance
+- Purchase Patterns (installments, one-time, cash advances) [web:169]
+- Payment History
+- Debt-to-Income Ratio [web:170]
+- Customer Tenure
+- Credit Utilization Rate [web:170]
+
+## 📈 Business Applications
+
+- **Marketing Personalization**: Tailored campaigns for each customer segment [web:166]
+- **Risk Management**: Identify high-risk customers early [web:170]
+- **Product Optimization**: Match credit products to customer profiles
+
 
 
 
